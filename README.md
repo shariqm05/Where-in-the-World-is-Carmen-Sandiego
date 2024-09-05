@@ -8,7 +8,7 @@ This game takes you on a quest to capture the elusive Carmen Sandiego. Starting 
 
 ### What Makes This Project Unique?
 
-- **Recursive Pathfinding**: One of the key features I wanted to emphasize in this project is the use of recursive algorithms to solve the problem of navigating between locations. This method ensures that you can only travel to places that are both connected and unlocked, adding a strategic element to your pursuit of Carmen.
+- **Recursive Pathfinding**: One of the key features I wanted to emphasize in this project is the use of recursive algorithms to solve the problem of navigating between locations. This method ensures that you can only travel to places that are both connected and unlocked, adding a strategic element to your pursuit of Carmen. This algorithm, in particular, is a Depth-First Search (DFS) algorithm implemented recursively. It explores as far as possible along each branch before backtracking, which is suitable for searching through the connections between locations in the game.
 
 - **Dynamic Interactions**: As you progress, new locations, characters, and clues become available, depending on your actions. The world evolves based on your decisions, making each playthrough unique.
 
