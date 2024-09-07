@@ -1,12 +1,12 @@
 # Where in the World is Carmen Sandiego?
 
-This is a digital adaptation of the classic game **"Where in the World is Carmen Sandiego?"** In this version, I've implemented **recursive pathfinding** to navigate through various locations across Europe, bringing a layer of complexity and challenge to developing and designing the source code of this game. This project was both a fun way to dive into algorithmic problem-solving and my first time dipping my toes in recursive algorithms.
+This is a digital adaptation of the classic game **"Where in the World is Carmen Sandiego?"** In this version, I've implemented **recursive DFS algorithms** to navigate through various locations across Europe, bringing a layer of complexity and challenge to developing and designing the source code of this game. This project was both a fun way to dive into algorithmic problem-solving and my first time dipping my toes in recursive algorithms in particular.
 
 ## Project Overview
 
 This game takes you on a quest to capture the elusive Carmen Sandiego. Starting in Rome, you’ll gather clues, talk to various characters, and travel across Europe, all while utilizing recursive pathfinding to progress the game and determine your next move. The game is fully text-based, and you interact with the world through simple commands.
 
-### What Makes This Project Unique?
+### Features
 
 - **Recursive Pathfinding**: One of the key features I wanted to emphasize in this project is the use of recursive algorithms to solve the problem of navigating between locations. This method ensures that you can only travel to places that are both connected and unlocked, adding a strategic element to your pursuit of Carmen. This algorithm, in particular, is a Depth-First Search (DFS) algorithm implemented recursively. It explores as far as possible along each branch before backtracking, which is suitable for searching through the connections between locations in the game.
 
@@ -39,12 +39,26 @@ This game takes you on a quest to capture the elusive Carmen Sandiego. Starting 
 
 ### The Recursive Pathfinding
 
-The heart of this game lies in its recursive pathfinding algorithm, which I designed to ensure that you can only travel along valid locations/paths you have unlocked, hence the term "pathfinding." The algorithm explores all possible routes, backtracking when necessary, to find a way to your desired destination.
+The heart of this game lies in its recursive Depth-First Search algorithm, which I designed to ensure that you can only travel along valid locations/paths you have unlocked, hence the term "pathfinding." The algorithm explores all possible routes, backtracking when necessary, to find a way to your desired destination.
 
 ### Game Endings
 
 - **Victory**: Catch Carmen Sandiego and win the game.
 - **Defeat**: Fail to find Carmen after three searches, and you lose.
+
+## Technical Overview
+
+- **Language Used**: Python
+- **Key Algorithm**: Recursive Depth-First Search (DFS) for pathfinding and decision-making
+- **Game Flow**: The game is structured around player decisions that modify the state of the game dynamically. It uses a recursive DFS approach to manage available paths and unlock new areas.
+
+### What I Learned
+
+- **Recursive Algorithms**: I learned how to implement recursive algorithms into my programs, specifically Depth-First Search (DFS), and learned how to use them to solve pathfinding problems.
+  
+- **Algorithmic Thinking**: The design and implementation of the recursive DFS algorithm improved my ability to think critically about algorithm optimization and efficiency.
+
+- **Game Design Fundamentals**: This project gave me insight into the process of designing game mechanics that are both challenging and fun. I learned to balance difficulty with accessibility, and I focused on creating a game that provides strategic depth and replayability.
 
 ## Requirements
 
@@ -58,3 +72,24 @@ The heart of this game lies in its recursive pathfinding algorithm, which I desi
    python carmen.py
    ```
 3. Follow the prompts and enjoy the game!
+
+### Future Improvements
+
+I plan to enhance this game by transitioning from a text-based format to a visual experience using a Graphical User Interface (GUI). This will improve engagement and make the game more intuitive and interactive. Key enhancements include:
+
+1. **GUI Framework**: Implement a GUI using **Pygame** or **Tkinter** to create visual elements like buttons, maps, and interactive controls, replacing text-based commands.
+
+2. **Visual Locations and Characters**: Display unique images or maps for each location and use icons or sprites for characters and clues, enhancing immersion.
+
+3. **Interactive Controls**: Replace text commands with clickable buttons and menus for actions like traveling, talking, and investigating, streamlining gameplay.
+
+4. **Animations and Sound**: Add animations for actions and sound effects/music to provide feedback and set the game's tone, making it more engaging.
+
+5. **Improved Navigation**: Implement a state management system for smoother transitions between game phases (menu, gameplay, end game).
+
+These improvements will create a richer, more dynamic player experience and showcase my skills in GUI development and game design.
+
+### Contacts
+
+LinkedIn: [https://www.linkedin.com/in/shariq-moghees-02ba712b2/]
+e-mail: shariqm2005@gmail.com
