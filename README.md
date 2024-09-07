@@ -1,6 +1,6 @@
 # Where in the World is Carmen Sandiego?
 
-This is a digital adaptation of the classic game **"Where in the World is Carmen Sandiego?"** In this version, I've implemented **recursive DFS algorithms** to navigate through various locations across Europe, bringing a layer of complexity and challenge to developing and designing the source code of this game. This project was both a fun way to dive into algorithmic problem-solving and my first time dipping my toes in recursive algorithms in particular.
+This is a digital adaptation of the classic card game **"Where in the World is Carmen Sandiego?"** In this version, I've implemented **recursive DFS algorithms** to navigate through various locations across Europe, bringing a layer of complexity and challenge to developing and designing the source code of this game. This project was both a fun way to dive into algorithmic problem-solving and my first time dipping my toes in recursive algorithms in particular.
 
 ## Project Overview
 
