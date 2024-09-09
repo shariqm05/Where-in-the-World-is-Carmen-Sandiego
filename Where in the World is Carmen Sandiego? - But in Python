@@ -1,11 +1,9 @@
 '''
 Author:          Shariq Moghees
 File:            carmen.py
-Date:            5/14/22
-Section:         25
-Email:           shariqm1@umbc.edu
+Date:            5/14/23
 Description:     A program made to run a version of the game "Where in the World is
-Carmen Sandiego?" by implementing recursive pathfinding into some functions.
+Carmen Sandiego?" by implementing recursive DFS algorithms into some functions.
 '''
 
 '''
